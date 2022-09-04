@@ -1,0 +1,22 @@
+body {
+    min-height: 3000px;
+}
+
+/* jumbotron */
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #e2edff;
+}
+
+/* projects */
+.projects {
+    background-color: #e2edff;
+}
+
+.projects .card {
+    margin-bottom: 10px;
+}
+
+section {
+    padding-top: 5rem;
+}
