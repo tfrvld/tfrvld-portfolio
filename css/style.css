@@ -53,3 +53,12 @@ textarea.materialize-textarea.validate+label {
   width: 92%;
   width: calc(100% - 3rem);
 }
+
+/* Gallery */
+.gallery-img {
+  width: 100%;
+}
+
+#gallery .row>* {
+  padding: 0;
+}
