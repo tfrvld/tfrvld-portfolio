@@ -3,7 +3,7 @@ const form = document.forms['contact-form'];
 const btnKirim = document.querySelector('.btn-kirim');
 const btnLoading = document.querySelector('.btn-loading');
 const myAlert = document.querySelector('.my-alert');
-const galleryImage = document.querySelectorAll('.gallery-img');
+// const galleryImage = document.querySelectorAll('.gallery-img');
 
 form.addEventListener('submit', e => {
    e.preventDefault()
@@ -26,11 +26,11 @@ form.addEventListener('submit', e => {
 })
 
 // AOS
-galleryImage.forEach((img, i) => {
-   img.dataset.aos = 'fade-down';
-   img.dataset.aosDelay = i * 150;
-   img.dataset.aosDuration = 1000;
-})
+// galleryImage.forEach((img, i) => {
+//    img.dataset.aos = 'fade-down';
+//    img.dataset.aosDelay = i * 150;
+//    img.dataset.aosDuration = 1000;
+// })
 
 AOS.init({
    once: true,
