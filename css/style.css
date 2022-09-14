@@ -5,12 +5,12 @@ body {
 /* jumbotron */
 .jumbotron {
    padding-top: 6rem;
-   background-color: #e2edff;
+   background-color: #cdffbd;
 }
 
 /* projects */
 .projects {
-   background-color: #e2edff;
+   background-color: #cdffbd;
 }
 
 .projects .card {
@@ -66,7 +66,7 @@ textarea.materialize-textarea.validate+label {
 /* tent section */
 .tent-box {
    position: relative;
-   background-color: #0c6efd;
+   background-color: #198754;
    border-radius: 10px;
    height: 500px;
    transform-style: preserve-3d;
