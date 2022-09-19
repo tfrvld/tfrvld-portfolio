@@ -1,5 +1,18 @@
+/* font */
+@font-face {
+   font-family: 'vigaregular';
+   src: url('../font/viga-regular-webfont.woff2') format('woff2'),
+      url('../font/viga-regular-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
 body {
    min-height: 3000px;
+}
+
+.judul-navbar {
+   font-family: vigaregular;
 }
 
 /* jumbotron */
